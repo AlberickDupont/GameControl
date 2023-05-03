@@ -1,0 +1,219 @@
+@charset "utf-8";
+
+
+header,
+section,
+footer,
+aside,
+nav,
+main,
+article,
+figure {
+    display: block;
+}
+
+div,
+header,
+nav,
+article,
+section,
+aside,
+footer,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,
+figure,
+figcaption,
+class,
+img {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    border: 0 solid transparent;
+    font-size: 16px;
+    margin: 0;
+    min-height: 100%;
+    padding: 0;
+    width: 100%;
+    display: block;
+    font-family: 'montserrat', sans-serif;
+}
+
+// body::-webkit-scrollbar {
+//     background-color: #0e0e0e;
+//     width: 5px;
+// }
+
+// body::-webkit-scrollbar-thumb {
+//     background-color: #4281bb;
+//     height: 150px;
+//     padding-top: 10px;
+// }
+
+img,
+object,
+embed,
+canvas,
+video,
+audio,
+picture {
+    max-width: 100%;
+    height: auto;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input,
+textarea {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 0;
+    line-height: 40px;
+    text-indent: 20px;
+}
+.clear {
+    display: block;
+    zoom: 1;
+
+    &:after {
+        content: " ";
+        display: block;
+        font-size: 0;
+        height: 0;
+        clear: both;
+        visibility: hidden;
+    }
+}
+
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../asset/background.jpg);
+    background-position: center;
+    padding: 40px;
+    section.container_header{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        div.containleft{
+            width: 65%;
+            height: 100%;
+            background-image: url(../asset/backgroundmanette.jpg);
+            background-size: cover;
+            background-position: center;
+        }
+        div.containright{
+            width: 35%;
+            height: 100%;
+            background-image: url(../asset/backgroundblack.jpg);
+            div.containdescri{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                article.descri{
+                    width: 507px;
+                    height: 302px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: url(../asset/backarticle.jpg);
+                    margin-bottom: 5px;
+                    p{
+                        color: white;
+                        font-size: 17px;
+                        margin-bottom: 10px;
+                        margin-top: 50px;
+                    }
+                    img{
+                        width: 120px;
+                    }
+                }
+                a.contact{
+                    color: white;
+                    width: 225px;
+                    height: 75px;
+                    background-image: url(../asset/backcontact.png);
+                    background-size: 90%;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    text-align: center;
+                    line-height: 80px;
+                    font-size: 15px;
+                    margin-bottom: 30px;
+                }
+                div.containreseaux{
+                    width: 90%;
+                    display: flex;
+                    justify-content: space-between;
+                    img{
+                        width:200px ;
+                        height: auto;
+                        
+                    }
+                    article{
+                        display: flex;
+                        margin-top: 10px;
+                        a{
+                            width: 20px;
+                            margin: 10px;
+                        }
+                        a.ytb{
+                            width: 28px;
+                        }
+                    }
+                }
+            }
+        }
+        img.manette{
+            position: absolute;
+            width: 1225px;
+        }
+        section.burger{
+            top: 75px;
+                right: 80px;
+            position: absolute;
+            cursor: pointer;
+            span.hautbas{
+                display: block;
+                width: 35px;
+                height: 4px;
+                background-color: white;
+                border-radius: 10px;
+            }
+            span.milieux{
+                display: block;
+                width: 20px;
+                height: 4px;
+                background-color: #9828f6;
+                margin: 8px 0;
+                transition: all 0.5s;
+                border-radius: 10px;
+            }
+        }
+    }
+}
