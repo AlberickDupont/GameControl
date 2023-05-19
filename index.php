@@ -30,7 +30,7 @@ un livre spécimen de polices de texte. </p>
                 </article>
                 <a class="contact" href="#">Nous contacter</a>
                 <div class="containreseaux">
-                    <img src="asset/CDL.png" alt="">
+                    <img src="asset/CDL.png" alt=""> 
                     <article class="reseaux">
                        <a href=""><img src="asset/square-facebook.png" alt=""></a> 
                         <a href=""><img src="asset/instagram.png" alt=""></a>
