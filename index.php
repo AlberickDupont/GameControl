@@ -44,7 +44,7 @@ un livre spécimen de polices de texte. </p>
         <section class="burger">
             <span class="hautbas"></span>
             <span class="milieux"></span>
-            <span class="hautbas"></span>
+            <span class="hautbas"></span>  
         </section>
     </section>
 
