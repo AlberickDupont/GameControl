@@ -16,7 +16,7 @@
 
         </div>
         <div class="containright">
-            <div class="containdescri">
+            <div class="containdescri"> 
                 <img class="logo" src="asset/logo.png" alt="">
                 <article class="descri">
                     <p>Le Lorem Ipsum est simplement du faux texte <br>
